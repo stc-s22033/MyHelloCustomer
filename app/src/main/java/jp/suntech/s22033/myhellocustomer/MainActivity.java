@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             if (id == R.id.btClick) {
                 String inputStr = input.getText().toString();
                 String inputStr2 = input2.getText().toString();
-                output.setText(inputStr2 + "にお住いの" + inputStr + "さん、こんにちは！");
+                output.setText(inputStr2 + "にお住いの" + inputStr + "さん、ごきげんよう！");
             } else if (id == R.id.btCname) {
                 input.setText("");
                 output.setText("");
